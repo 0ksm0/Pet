@@ -8,5 +8,11 @@ public class PetMaster {
         petReaction = myPet.sey("Гав-гав");
         System.out.println(petReaction);
         myPet.sleep();
+        System.out.println("-----------------------------");
+        Fish myFish = new Fish();
+        myFish.dive(2);
+        myFish.dive(3);
+        myFish.sleep();
     }
+
 }
